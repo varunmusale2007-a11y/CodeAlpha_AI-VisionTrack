@@ -12,8 +12,7 @@
 // BACKEND CONFIGURATION
 // Replace this URL with your deployed backend URL (e.g. Render/Railway/Fly.io)
 // ============================================================================
-const DEFAULT_BACKEND_URL = "http://localhost:8000";
-let BACKEND_URL = localStorage.getItem("ai_visiontrack_backend_url") || DEFAULT_BACKEND_URL;
+const BACKEND_URL = "https://codealpha-ai-visiontrack.onrender.com";
 
 // ============================================================================
 // STATE MANAGEMENT
